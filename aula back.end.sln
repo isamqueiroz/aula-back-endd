@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWord", "HelloWord\HelloWord.csproj", "{5621AD3F-95B1-48B5-9C4C-2A952D0E58CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewConcepts", "ReviewConcepts\ReviewConcepts.csproj", "{D54DC951-A050-43FB-AD03-79238ED9704E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5621AD3F-95B1-48B5-9C4C-2A952D0E58CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5621AD3F-95B1-48B5-9C4C-2A952D0E58CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5621AD3F-95B1-48B5-9C4C-2A952D0E58CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5621AD3F-95B1-48B5-9C4C-2A952D0E58CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54DC951-A050-43FB-AD03-79238ED9704E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54DC951-A050-43FB-AD03-79238ED9704E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54DC951-A050-43FB-AD03-79238ED9704E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54DC951-A050-43FB-AD03-79238ED9704E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84906397-F4DB-40EB-878E-8D8BCCF30600}
+	EndGlobalSection
+EndGlobal
