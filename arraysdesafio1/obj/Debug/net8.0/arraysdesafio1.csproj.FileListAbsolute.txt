@@ -1,0 +1,15 @@
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.AssemblyInfoInputs.cache
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.AssemblyInfo.cs
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.csproj.CoreCompileInputs.cache
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.sourcelink.json
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\bin\Debug\net8.0\arraysdesafio1.exe
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\bin\Debug\net8.0\arraysdesafio1.deps.json
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\bin\Debug\net8.0\arraysdesafio1.runtimeconfig.json
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\bin\Debug\net8.0\arraysdesafio1.dll
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\bin\Debug\net8.0\arraysdesafio1.pdb
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.dll
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\refint\arraysdesafio1.dll
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.pdb
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\arraysdesafio1.genruntimeconfig.cache
+C:\Users\50178746827\Desktop\aula-back-end\arraysdesafio1\obj\Debug\net8.0\ref\arraysdesafio1.dll

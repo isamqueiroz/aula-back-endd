@@ -1,38 +1,39 @@
-﻿
-int totalSim = 0;
-int totalNao = 0;
-int mulheresSim = 0;
-int homensNao = 0;
-int totalHomens = 0;
+﻿int qnthomem = 0;
+int qntmulher = 0;
+int gstesporte = 0;
+int ngstesporte = 0;
+Console.WriteLine("Quantas pessoas tem na sua mesa:");
+int qntdenrevistados = int.Parse(Console.ReadLine()!);
 
-for (int i = 0; i < 10; i++)
+for (int i = 1; i <= qntdenrevistados; i++)
 {
-    Console.Write($"Entrevista {i + 1} - Informe o sexo (M/F): ");
+    Console.WriteLine("Qual seu sexo:");
     string sexo = Console.ReadLine();
-
-    Console.Write($"Entrevista {i + 1} - Você gostou do produto ? (sim/não): ");
-    string resposta = Console.ReadLine();
-    if (resposta == "sim")
+    if (sexo == "f")
     {
-        totalSim++;
-
-        if (sexo == "F")
-        {
-            mulheresSim++;
-        }
+        qntmulher++;
     }
-    else if (resposta == "não" || resposta == "nao")
+    else { qnthomem++; }
+
+    Console.WriteLine("Você gosta de esporte:(s/n)");
+    string qntesporte = Console.ReadLine();
+    if (qntesporte == "s")
     {
+        gstesporte++;
     }
-
+    else
+    {
+        ngstesporte++;
+    }
 }
+    float percentual = (100/ qntdenrevistados) * ngstesporte;
 
+Console.Clear();
 
+Console.WriteLine($"Quantidade de pessoas que responderam SIM: {qntmulher}");
+Console.WriteLine($"Quantidade de pessoas que responderam NÃO: {qnthomem}");
+Console.WriteLine($"Mulheres que responderam sim: {gstesporte}");
+Console.WriteLine($"Homens que não responderam: {ngstesporte}");
+Console.WriteLine($"{percentual}% das pessas gostam de esportes");
 
-Console.WriteLine($"quantidade de mulheres q gostaram: {mulheresSim}");
-    Console.WriteLine($"quantidade de homens q nao gostaram : {homensNao}");
-    Console.WriteLine($"total de entrevistados: {mulheresSim + homensNao}");
-    Console.WriteLine($"Quantidade de pessoas que nao gostaram: {totalNao}");
-    Console.WriteLine($"Quantidade de pessoas que gostaram: {totalSim}");
-    Console.WriteLine($"Quantidade de homens: {totalHomens}");
 

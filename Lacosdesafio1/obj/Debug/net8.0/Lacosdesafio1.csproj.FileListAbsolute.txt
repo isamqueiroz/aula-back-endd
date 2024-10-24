@@ -12,3 +12,4 @@ C:\Users\50178746827\Desktop\aula-back-end\Lacosdesafio1\obj\Debug\net8.0\refint
 C:\Users\50178746827\Desktop\aula-back-end\Lacosdesafio1\obj\Debug\net8.0\Lacosdesafio1.pdb
 C:\Users\50178746827\Desktop\aula-back-end\Lacosdesafio1\obj\Debug\net8.0\Lacosdesafio1.genruntimeconfig.cache
 C:\Users\50178746827\Desktop\aula-back-end\Lacosdesafio1\obj\Debug\net8.0\ref\Lacosdesafio1.dll
+C:\Users\50178746827\Desktop\aula-back-end\Lacosdesafio1\obj\Debug\net8.0\Lacosdesafio1.sourcelink.json

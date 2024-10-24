@@ -1,0 +1,15 @@
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+C:\Users\50178746827\Desktop\aula-back-end\arrays\bin\Debug\net8.0\Arrays.exe
+C:\Users\50178746827\Desktop\aula-back-end\arrays\bin\Debug\net8.0\Arrays.deps.json
+C:\Users\50178746827\Desktop\aula-back-end\arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+C:\Users\50178746827\Desktop\aula-back-end\arrays\bin\Debug\net8.0\Arrays.dll
+C:\Users\50178746827\Desktop\aula-back-end\arrays\bin\Debug\net8.0\Arrays.pdb
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.dll
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\refint\Arrays.dll
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.pdb
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+C:\Users\50178746827\Desktop\aula-back-end\arrays\obj\Debug\net8.0\ref\Arrays.dll
