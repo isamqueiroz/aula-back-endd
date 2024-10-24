@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h9BlbWYZwcJoB5zx1TQOP3dvD9I8t+5JUynrTzi9nl+7dMPlozl6QiZwULwlBT2iCaX9KqWAFGFwJP4Sh008wQ==",
+  "dgSpecHash": "sbz2iOVKtoYGyAhzNawAttepRZXRsPNhO1NfVRocpSZx5n8lRE/AgABsakj15obPj1btpkbmmVi0UF04p0L4mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\50178746827\\Desktop\\aula back.end\\HelloWord\\HelloWord.csproj",
+  "projectFilePath": "C:\\Users\\50178746827\\Desktop\\aula-back-end\\HelloWord\\HelloWord.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
