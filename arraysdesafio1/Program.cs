@@ -1,24 +1,44 @@
-﻿int [] num = new int[6];
+﻿int [] numeros = new int[6];
+int par = 0, impar = 0;
 
-int numPar = 0;
-int numImpar = 0;
-
-for (int i = 0; i < num.Length; i++)
+for (int i = 0; i < numeros.Length; i++)
 {
-    Console.WriteLine($"Digite um numero:");
-    num [i] = int.Parse(Console.ReadLine());
+    Console.WriteLine($"Digite um {i + 1}ª numero:");
+    int NumeroDigitado = int.Parse(Console.ReadLine());
 
 
-    if (num[i] %2 == 0)
+    if (NumeroDigitado %2 == 0)
     {
   
-     numPar++;
+     par++;
      
     } else
     {
-        numImpar++;
+        impar++;
     }
 }
 
-Console.WriteLine($"Numeros pares: {numPar}");
-Console.WriteLine($"Numeros impares: {numImpar}");
+
+
+Console.WriteLine($"Numeros pares: {par}");
+for (int i = 0; i < numeros.length; i++) 
+{
+    if(numeros[i] % 2 == 0 ){
+        Console.Write($"{numeros[i]}");
+        
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine();
+
+
+Console.WriteLine($"Numeros impares: {impar}");
+for (int i = 0; i < numeros.length; i++) {
+    if(numeros[i] % 2 == 1){
+        Console.WriteLine($"{numeros[i]}");
+        
+    }
+}
+
+
