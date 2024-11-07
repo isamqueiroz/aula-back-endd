@@ -1,31 +1,51 @@
-﻿using Banco.Classes;
+﻿
 
-Console.Clear();
-Console.WriteLine($"Bem Vindo ao nubanquinho");
-Console.WriteLine();
+using Calculador.Classes;
 
-ContaCorrente ContaIsa = new ContaCorrente();
-ContaCorrente ContaEmilly = new ContaCorrente();
+Console.WriteLine($"Bem Vindo ao programa Calculador ");
 
-ContaIsa.Titular = "Isa";
-ContaIsa.Depositar(10000000000f) ;
- 
-ContaIsa.Titular = "Emilly";
-ContaEmilly.Depositar(10000000000f) ;
-
-Console.WriteLine($"Conta da {ContaIsa} tem R${ContaIsa.Saldo}");
-
-Console.WriteLine($"Conta da {ContaEmilly} tem R${ContaEmilly.Saldo}");
+Calculadora calculadora = new Calculadora();
 
 
-ContaIsa.Sacar(250f) ;
+Console.WriteLine($"Digite o primeiro numero:");
+float numero1 = float.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Voce sacou e sua conta ficou com R${ContaIsa.Saldo}");
-Console.WriteLine();
-Console.WriteLine();
+Console.WriteLine($"Digite o segundo numero:");
+float numero2 = float.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Conta da {ContaIsa.Titular} tem R$ {ContaIsa.Saldo}");
-Console.WriteLine($"Conta da {ContaEmilly.Titular} tem R$ {ContaEmilly.Saldo}");
-Console.WriteLine();
+Console.WriteLine(@$"Escolha uma operação:
+1-Somar
+2-Subtrair
+3-Multiplicar
+4-Divisão");
+int operação = int.Parse(Console.ReadLine()!);
+if (operação == 1)
+{
+    calculadora.Somar (numero1, numero2);
+    Console.WriteLine($"");
+}
+else if (operação == 2)
+{
+    calculadora.Subtrair (numero1, numero2);
+    Console.WriteLine($"");
+}
+else if (operação == 3)
+{
+    calculadora.Multiplicar (numero1, numero2);
+    Console.WriteLine($"");
+}
+else
+{
+    calculadora.Divisão (numero1, numero2);
+    Console.WriteLine($"");
+}
 
+// calculadora.Somar(numero1, numero2);
+// calculadora.Subtrair(numero1, numero2);
+// calculadora.Multiplicar(numero1,numero2);
+// calculadora.Divisão(numero1, numero2);
+
+
+
+        
 
